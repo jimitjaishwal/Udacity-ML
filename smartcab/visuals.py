@@ -207,5 +207,3 @@ def plot_trials(csv):
 
 	plt.tight_layout()
 	plt.show()
-
-plot_trials('sim_improved-learning.csv')
