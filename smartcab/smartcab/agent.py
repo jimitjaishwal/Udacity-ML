@@ -24,6 +24,7 @@ class LearningAgent(Agent):
         ###########
         # Set any additional class parameters as needed
         self.trial_num = 0
+        random.seed(1)
 
 
     def reset(self, destination=None, testing=False):
